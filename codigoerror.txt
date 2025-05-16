@@ -1,0 +1,10 @@
+? sentencia choose & case
+choose(@number):
+start
+    case 1:
+        print(1);
+    case "hola":
+        print("Hola");
+    case false:
+        print(false);
+end

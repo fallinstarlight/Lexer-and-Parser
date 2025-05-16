@@ -1,0 +1,28 @@
+float @aaaa = 125.45;
+float @bbbb = -200.07;
+float @suma = 0;
+int @int = +10;
+string @tex = ' >< ';
+
+
+define $funcion returns float(int @a, int @b):
+start
+    return 3.141519;
+end
+
+int @good_news_everyone;
+
+choose(@good_news_everyone):
+start
+    case 1:
+    start
+        print("uhhhhh");
+    end 
+
+    case 2:
+    start 
+        print("One Piece es mrd");
+    end
+end
+
+int @variable = 5;

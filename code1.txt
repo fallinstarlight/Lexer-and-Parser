@@ -1,0 +1,54 @@
+int @a = @c;
+? Declaración de variables
+int @a = 10;
+int @b = 20;
+
+int @mult = @a * @b;
+
+string @phrase = "I love u";
+
+? sentencia if
+if(@mult < 12 or true):
+start
+    print(@phrase);
+end
+elif(@phrase <> 10 or @phrase >< true):
+start
+    print("ooooooo");
+end
+
+? ciclo range
+range(10, 200, 1):
+start
+    print("*");
+end
+
+? ciclo while
+while(1 < 2):
+start
+    print("Mónica");
+end
+
+? declarar funciones
+define $raiz_inversa returns float(float @x):
+start
+    return 1 / @x ^ 1/2;
+end
+
+? sentencia choose & case
+choose(@number):
+start
+    case 1:
+        print("print");
+    case "hola":
+        print("Hola");
+    case false:
+        print(false);
+end
+
+
+
+
+
+
+
